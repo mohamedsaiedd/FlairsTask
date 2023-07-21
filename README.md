@@ -1,11 +1,11 @@
-# TeamsBuddy
+# FlairsTask
 
 
 ## node server run command
 
 
 ```
-cd ./Buddy
+cd ./Ftask
 
 node ./index.js
 ```
@@ -18,7 +18,7 @@ node ./index.js
 
 
 ```
-cd ./Buddy/buddy
+cd ./Ftask/task
 
 npm start
 ```
