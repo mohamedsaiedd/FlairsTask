@@ -82,7 +82,7 @@ export default function Layout() {
                     </div>
                     <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                         <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                            Timer : <span aria-hidden="true">08:20</span>
+                            Timer : <span aria-hidden="true">00:00</span>
                         </a>
                     </div>
                 </nav>
@@ -94,7 +94,7 @@ export default function Layout() {
                             <a href="#" className="-m-1.5 p-1.5">
                                 <span className="sr-only">Your Company</span>
                                 <img
-                                    className="h-8 w-auto"
+                                    className="h-16 w-auto"
                                     src={Img}
                                     alt=""
                                 />

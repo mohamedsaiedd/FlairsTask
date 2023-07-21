@@ -41,7 +41,8 @@
   }
 }
 .logoSize {
-  width: 100%;
+  width: 150px;
+  height: auto;
 }
 
 .quiz {
@@ -114,4 +115,21 @@
 .score {
   font-weight: bold;
   margin-top: 10px;
+}
+
+._3uApM
+{
+  display: none !important;
+}
+._2Jtxm ._1hzhf {
+  width: max-content;
+}
+._53Ji7 {
+  padding: unset !important;
+}
+._2_g61 {
+  display: none !important;
+}
+.paddingTop {
+  padding-top: 8rem;
 }

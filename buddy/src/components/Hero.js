@@ -8,6 +8,8 @@ import Img from "../logofinal.png"
 import ReactMarkdown from 'https://esm.sh/react-markdown@7'
 import Quiz from './quiz'
 import { Link } from 'react-router-dom'
+import DropDownType from './dropdownPositionType'
+import { ProgressB } from './progressB'
 
 
 
@@ -47,21 +49,29 @@ export default function Hero() {
     }
 
     return (
-       <>
-       
-            <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-
+        <div className='container mx-auto max-w-3xl  py-12 sm:py-48  '>
+                <ProgressB />
+            <div className="mx-auto max-w-3xl  paddingTop ">
+                
                 <form onSubmit={handleSubmit}>
 
                     <div className="text-center">
-                        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                            Data to enrich your online business
+                        <h1 className="text-4xl font-bold tracking-tight text-left text-gray-700 sm:text-xl">
+                            You will solve this assessment which is only take (20 Mins)
+
+                            We suggest being here because we time it , just press start when you are ready.
+
+                            Make sure that your internet connection is stable
                         </h1>
+                        <br></br>
+                        <br></br>
                         <br></br>
                         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
                             {/* <div className="  px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"> */}
+
                             <DropDownPosition />
                             <DropDownLevel />
+                            <DropDownType />
 
                             <button
                                 type="submit" value="Submit"
@@ -71,7 +81,7 @@ export default function Hero() {
                                     to="form"
                                 >
 
-                                    Get started
+                                    Start
                                 </Link>
                             </button>
                         </div>
@@ -98,7 +108,7 @@ export default function Hero() {
                     }}
                 />
             </div>
-        
-        </>
+
+        </div>
     )
 }

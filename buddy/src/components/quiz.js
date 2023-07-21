@@ -105,7 +105,7 @@ const Quiz = () => {
                     </div>
                     {selectedOption !== null ? (
                         <button className="next-button" onClick={handleNextQuestion}>
-                            Next Question
+                            Submit Quiz
                         </button>
                     ) : (
                         <p className="info-text">Please select an answer</p>
@@ -113,11 +113,11 @@ const Quiz = () => {
                 </>
             ) : (
                 <div className="quiz-completed">
-                    <h3>Quiz Completed!</h3>
-                    <p className="score">Your score: {score}/{questions.length}</p>
-                    <button className="submit-button" onClick={handleSubmitQuiz}>
-                        Submit Quiz
-                    </button>
+                    <h3>Quiz Completed!
+                        <br/>
+                        Thank You !
+                    </h3>
+                   
                 </div>
             )}
         </div>
